@@ -8,13 +8,16 @@ header {
   height: 70px;
   width: 100%;
   background: #ec715f;
-  text-align: center;
+  /* text-align: center; */
   margin: 0 auto;
 }
 
 .container {
   height: 100%;
   width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .head-logo {
@@ -22,12 +25,18 @@ header {
 }
 
 .nav-group {
-  display: inline-block;
+  display: flex;
 }
 
 .nav-item {
   color: #fafafa;
   font-size: 16px;
-  margin-right: 16px;
+  margin: 0 30px;
+  line-height: 70px;
   list-style: none;
+}
+
+.nav-item > a {
+  color: #fafafa;
+  text-decoration: none;
 }
