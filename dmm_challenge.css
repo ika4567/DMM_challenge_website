@@ -78,10 +78,12 @@ header {
 }
 
 .mp-container > h2::after {
+  content: '';
+  display: block;
   height: 3px;
   width: 70px;
   background-color: #ec715f;
-  margin-top: 8px;
+  margin: 8px auto 0 auto;
 }
 
 .mp-container > p {
@@ -145,4 +147,59 @@ header {
   background-image: url(img/webcamp-mother.png);
   background-size: cover;
   background-position: center;
+}
+
+.mf-container {
+  width: 980px;
+  padding: 90px 0;
+  margin: 0 auto;
+  color: black;
+}
+
+.mf-container > h2 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.mf-container > h2::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.mf-container > p {
+  margin: 30px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.strength-group {
+  display: flex;
+}
+
+.strength {
+  text-align: center;
+  width: 320px;
+  height: auto;
+}
+
+.strength > i {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.strength > h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.strength > p {
+  text-align: left;
+}
+
+.strength:nth-child(2) {
+  margin: 0 10px;
 }
