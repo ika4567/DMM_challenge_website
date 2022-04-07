@@ -12,7 +12,7 @@ header {
   margin: 0 auto;
 }
 
-.head-container {
+.container {
   height: 100%;
   width: 1024px;
   margin: 0 auto;
@@ -41,7 +41,7 @@ header {
   text-decoration: none;
 }
 
-#main-visual {
+.main-visual {
   background-image: url(img/mv.png);
   background-size: cover;
   background-position: center;
@@ -51,13 +51,13 @@ header {
   color: #fafafa;
 }
 
-#main-visual > h1 {
+.main-visual > h1 {
   font-size: 64px;
   padding-top: 200px;
   margin-bottom: 10px;
 }
 
-#main-visual > p {
+.main-visual > p {
   font-size: 20px;
 }
 
@@ -65,18 +65,19 @@ header {
   background-color: #eceff1;
 }
 
-.container {
+.mp-container {
+  width: 920px;
   text-align: center;
   color: black;
   padding: 90px 0;
   margin: 0 auto;
 }
 
-.container > h2 {
+.mp-container > h2 {
   font-size: 32px;
 }
 
-.container > h2::after {
+.mp-container > h2::after {
   content: '';
   display: block;
   height: 3px;
@@ -85,11 +86,7 @@ header {
   margin: 8px auto 0 auto;
 }
 
-#m-portfolio > .container {
-  width: 920px;
-}
-
-.container > p {
+.mp-container > p {
   padding: 30px 0;
   font-size: 16px;
 }
@@ -152,13 +149,25 @@ header {
   background-position: center;
 }
 
-#m-feature > .container {
+.mf-container {
   width: 980px;
+  padding: 90px 0;
+  margin: 0 auto;
+  color: black;
 }
 
 .mf-container > h2 {
   font-size: 32px;
   text-align: center;
+}
+
+.mf-container > h2::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
 }
 
 .mf-container > p {
@@ -183,6 +192,7 @@ header {
 }
 
 .strength > h3 {
+  font-size: 20px;
   margin: 10px 0;
 }
 
@@ -198,7 +208,7 @@ header {
   background-color: #eceff1;
 }
 
-#m-profile > .container{
+.mp-container{
   width: 1024px;
 }
 
@@ -223,7 +233,7 @@ header {
   text-align: left;
 }
 
-h3 {
+.mp-right > div > h3 {
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -233,43 +243,6 @@ h3 {
   color: black;
 }
 
-.mp-name, .mc-mail {
+.mp-name{
   margin-bottom: 20px;
-}
-
-#m-contact > .container{
-  width: 800px;
-}
-
-.mc-group{
-  display: flex;
-  margin: 0 auto;
-}
-
-.right, .left {
-  width: 50%;
-}
-
-.mc-info{
-  width: 130px;
-  margin: 0 auto;
-}
-
-.mc-sns{
-  width: 210px;
-  margin: 0 auto;
-}
-
-.mc-mail > h3, .mc-tel > h3, .mc-sns > h3 {
-  text-align: left;
-}
-
-.mc-mail > p, .mc-tel > p {
-  text-decoration: underline;
-  text-align: left;
-}
-
-.mc-sns > i {
-  font-size: 50px;
-  margin-right: 20px;
 }
