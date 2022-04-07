@@ -203,3 +203,46 @@ header {
 .strength:nth-child(2) {
   margin: 0 10px;
 }
+
+#m-profile{
+  background-color: #eceff1;
+}
+
+.mp-container{
+  width: 1024px;
+}
+
+.mp-content{
+  display: flex;
+}
+
+.mp-left{
+  width: 512px;
+}
+
+.mp-image{
+  background-image: url(img/my-icon.jpg);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.mp-right{
+  width: 512px;
+  text-align: left;
+}
+
+.mp-right > div > h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.mp-right > p {
+  font-size: 16px;
+  color: black;
+}
+
+.mp-name{
+  margin-bottom: 20px;
+}
