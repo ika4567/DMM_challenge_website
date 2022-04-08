@@ -270,7 +270,10 @@ h3 {
 
 .mc-sns > i {
   font-size: 50px;
-  margin-right: 20px;
+}
+
+.mc-sns > i:nth-child(2) {
+  margin: 0 20px;
 }
 
 footer {
@@ -385,8 +388,30 @@ footer > p {
   .mp-left {
     margin-bottom: 20px;
   }
+  
+  #m-contact > .container {
+    width: 90%;
+  }
 
   .mc-group{
     display: block;
+    text-align: center;
+  }
+
+  .right, .left {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .mc-mail > h3, .mc-mail > p, .mc-tel > h3, .mc-tel > p, .mc-sns > h3 {
+    text-align: center;
+  }
+
+  .mc-sns > h3 {
+    margin-top: 20px;
+  }
+
+  .mc-sns > i:nth-child(2) {
+    margin: 0 8px;
   }
 }
