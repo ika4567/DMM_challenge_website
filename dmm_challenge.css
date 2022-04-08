@@ -368,8 +368,22 @@ footer > p {
     margin: 10px auto;
   }
 
+  #m-profile > .container {
+    width: 90%;
+  }
+
   .mp-content{
     display: block;
+  }
+
+  .mp-left, .mp-right {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mp-left {
+    margin-bottom: 20px;
   }
 
   .mc-group{
