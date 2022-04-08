@@ -259,11 +259,11 @@ h3 {
   margin: 0 auto;
 }
 
-.mc-mail > h3, .mc-tel > h3, .mc-sns > h3 {
+.mail, .tel, .sns {
   text-align: left;
 }
 
-.mc-mail > p, .mc-tel > p {
+.mail-address, .number {
   text-decoration: underline;
   text-align: left;
 }
@@ -403,11 +403,11 @@ footer > p {
     width: 90%;
   }
 
-  .mc-mail > h3, .mc-mail > p, .mc-tel > h3, .mc-tel > p, .mc-sns > h3 {
+  .mail, .mail, .tel, .number, .sns {
     text-align: center;
   }
 
-  .mc-sns > h3 {
+  .sns {
     margin-top: 20px;
   }
 
