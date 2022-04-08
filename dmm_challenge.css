@@ -320,6 +320,17 @@ footer > p {
   nav {
     display: none;
   }
+  #main-visual {
+    background-image: url(img/code.png);
+  }
+
+  #main-visual > h1 {
+    font-size: 40px;
+  }
+
+  #main-visual > p {
+    font-size: 18px;
+  }
 
   .mp-image-group {
     display: block;
