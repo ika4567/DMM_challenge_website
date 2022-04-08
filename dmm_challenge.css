@@ -284,3 +284,29 @@ footer > p {
   line-height: 60px;
   color: #fafafa;
 }
+
+@media (max-width:768px){
+  header {
+    height: 50px;
+  }
+
+  .head-container{
+    width: 90%;
+  }
+
+  .mp-image-group {
+    display: block;
+  }
+
+  .strength-group{
+    display: block;
+  }
+
+  .mp-content{
+    display: block;
+  }
+
+  .mc-group{
+    display: block;
+  }
+}
