@@ -332,12 +332,40 @@ footer > p {
     font-size: 18px;
   }
 
+  #m-portfolio > .container{
+    width: 90%;
+  }
+
   .mp-image-group {
     display: block;
   }
 
+  .mp-img-2, .mp-img-6 {
+    margin: 0 auto;
+  }
+
+  .mp-img-4 {
+    margin: 10px auto;
+  }
+
+  .mp-img-1, .mp-img-3, .mp-img-5{
+    display: none;
+  }
+
+  #m-feature > .container {
+    width: 90%;
+  }
+
   .strength-group{
     display: block;
+  }
+
+  .strength {
+    margin: 0 auto;
+  }
+
+  .strength:nth-child(2) {
+    margin: 10px auto;
   }
 
   .mp-content{
